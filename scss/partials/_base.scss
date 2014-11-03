@@ -1,0 +1,37 @@
+/*base html elements and classes*/
+
+body{
+	font-family: $base-font-family;
+	line-height: $base-line-height;
+	font-size: $base-font-size;
+	font-weight: $base-font-weight;
+	color: $black;
+	text-rendering: optimizeLegibility;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin-top: 0;
+	line-height: $heading-line-height;
+	font-weight: $base-font-weight;
+}
+
+h1, h2, h3{
+	text-transform: uppercase;
+}
+
+h4 > a{
+	display: none;
+}
+
+p, li, blockquote, dt, dd, td{
+	line-height: $base-line-height;
+}
+
+a, a:visited, a:active{
+	color: $dark-green;
+}
+
+hr{
+	border-top: 0;
+}

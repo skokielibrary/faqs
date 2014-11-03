@@ -1,0 +1,52 @@
+.bb-activities{
+	display: none;
+	padding: 40px 0;
+	border-bottom: 2px solid $light-green;
+
+}
+
+.bb-featured-activities{
+	background-color: $light-green;
+
+	h2{
+		color: $white;
+	}
+
+}
+
+.bb-more-activities{
+	margin: 1em 0 0 0;
+	text-align: right;
+
+	a{
+		color: $white;
+	}
+}
+
+.bb-activity{
+	background-color: $white;
+
+	h3{
+		margin-bottom: 0;
+		padding: 12px;
+		background-color: $dark-green;
+		color: $white;
+		font-size: 13px;
+		line-height: 1.2;
+	}
+
+}
+
+.bb-activity-text{
+	padding: 12px;
+
+	h4{
+		font-size: 19px;
+	}
+
+}
+
+.bb-activity-time{
+	font-size: 14px;
+	color: $dark-gray;
+}

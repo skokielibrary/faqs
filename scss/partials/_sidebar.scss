@@ -1,0 +1,21 @@
+/*sidebar*/
+
+.bb-sidebar h3{
+	margin-top: 1em;
+	 line-height: 1.1;
+	 font-size: 17px;
+}
+
+.bb-topics a{
+	margin-right: 8px;
+}
+
+.bb-active-topic{
+	background-color: $gray;
+}
+
+.bb-mini-faq{
+	margin-bottom: 20px;
+	 padding-bottom: 10px;
+	 font-size: 15px;
+}

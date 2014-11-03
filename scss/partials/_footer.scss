@@ -1,0 +1,39 @@
+/*footer*/
+
+.bb-footer{
+	clear: both;
+  padding: 40px 0 0;
+  background-color: $dark-green;
+  color: $white;
+}
+
+.bb-footer h2, .bb-footer h3{
+	color: $darker-green;
+}
+
+.bb-subfooter{
+	margin-top: 30px;
+  padding: 4px 0;
+  background-color: $dark-green;
+  font-size: 90%;
+
+	p{
+		margin-bottom: 0;
+	}
+
+	.bb-footer a{
+		color: $white;
+	}
+}
+
+.bb-staff{
+	margin-bottom: 1.5em;
+
+	h4{
+		margin-bottom: 2px;
+	}
+
+	p{
+		color: $light-green;
+	}
+}

@@ -1,0 +1,30 @@
+/*button styles*/
+
+.bb-btn{
+  margin-top: 1em;
+  padding: .5em;
+  background: transparent;
+  border: 1px solid $dark-green;
+  color: $dark-green;
+  border-radius: 0 !important;
+  box-shadow: none;
+  text-shadow: none;
+  font-size: 90%;
+
+  &:hover{
+    border: 1px solid #e6e6e6;
+  }
+}
+
+.bb-btn-large{
+  padding: 1em;
+}
+
+.bb-btn-white{
+  border-color: $white;
+  color: $white;
+}
+
+.bb-btn-solid{
+  background: $dark-green;
+}

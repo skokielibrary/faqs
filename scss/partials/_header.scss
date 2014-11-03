@@ -1,0 +1,100 @@
+/*header*/
+
+.bb-header{
+	height: 132px;
+	background: $white;
+	border: 0;
+	border-bottom: 2px solid $light-green;
+	box-shadow: none;
+
+	& > .container{
+		position: relative;
+	}
+
+}
+
+.bb-brand{
+	float: left;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 132px;
+	color: $dark-green;
+	text-transform: uppercase;
+
+	&:hover{
+		color: $light-green;
+		text-decoration: none;
+	}
+
+	&:hover .box-text{
+		color: $dark-green;
+	}
+
+	.box-text{
+		color: $light-green;
+	}
+}
+
+.bb-search-container{
+	float: right;
+	padding-top: 42px;
+
+}
+
+.bb-control-group{
+	position: relative;
+	margin-bottom: 5px;
+	padding: 4px 6px;
+	background-color: $light-gray;
+	text-align: left;
+}
+
+.bb-search input, .bb-search .btn{
+	border: 0;
+	background: none;
+	box-shadow: none;
+}
+
+.bb-search .btn{
+	position: absolute;
+	right: 0;
+}
+
+table.bb-results-dropdown{
+	border: 0;
+	width: 100%;
+	padding: 4px 0 8px 0;
+
+	td{
+		padding: 3px 3px 3px 11px;
+	}
+
+	tr:last-child{
+		display: none;
+	}
+}
+
+.bb-editing-tools{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 5000;
+
+	a{
+		color: #999;
+	}
+
+	.pull-right{
+		margin-left: .7em;
+	}
+
+	.edit-toggle.icon-large {
+		color: $dark-green;
+	}
+}
+
+.bb-editing-tools-inner{
+	min-height: 0;
+	padding: 0;
+	border: 0;
+}
