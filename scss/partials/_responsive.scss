@@ -1,13 +1,13 @@
 /*responsive fixes*/
 
 @media (max-width: $break-medium){
-  .bb-header{height: auto; text-align: center;}
-  .bb-brand{float: none; line-height: 2;}
-  .bb-search-container{float: none; width: 100%; padding-top: 0; margin-bottom: 20px;}
+  .spl-header{height: auto; text-align: center;}
+  .spl-brand{float: none; line-height: 2;}
+  .spl-search-container{float: none; width: 100%; padding-top: 0; margin-bottom: 20px;}
 }
 
 @media (max-width: $break-small){
   body{padding: 0;}
   .container{padding: 0 20px;}
-  .bb-activity{margin-bottom: 20px;}
+  .spl-activity{margin-bottom: 20px;}
 }

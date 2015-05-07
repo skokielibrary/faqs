@@ -1,6 +1,6 @@
 /*button styles*/
 
-.bb-btn{
+.spl-btn{
   margin-top: 1em;
   padding: .5em;
   background: transparent;
@@ -16,15 +16,15 @@
   }
 }
 
-.bb-btn-large{
+.spl-btn-large{
   padding: 1em;
 }
 
-.bb-btn-white{
+.spl-btn-white{
   border-color: $white;
   color: $white;
 }
 
-.bb-btn-solid{
+.spl-btn-solid{
   background: $dark-green;
 }

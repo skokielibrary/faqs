@@ -1,6 +1,6 @@
 /*header*/
 
-.bb-header{
+.spl-header{
 	height: 132px;
 	background: $white;
 	border: 0;
@@ -13,7 +13,7 @@
 
 }
 
-.bb-brand{
+.spl-brand{
 	float: left;
 	font-size: 48px;
 	font-weight: 700;
@@ -35,13 +35,13 @@
 	}
 }
 
-.bb-search-container{
+.spl-search-container{
 	float: right;
 	padding-top: 42px;
 
 }
 
-.bb-control-group{
+.spl-control-group{
 	position: relative;
 	margin-bottom: 5px;
 	padding: 4px 6px;
@@ -49,18 +49,18 @@
 	text-align: left;
 }
 
-.bb-search input, .bb-search .btn{
+.spl-search input, .spl-search .btn{
 	border: 0;
 	background: none;
 	box-shadow: none;
 }
 
-.bb-search .btn{
+.spl-search .btn{
 	position: absolute;
 	right: 0;
 }
 
-table.bb-results-dropdown{
+table.spl-results-dropdown{
 	border: 0;
 	width: 100%;
 	padding: 4px 0 8px 0;
@@ -74,7 +74,7 @@ table.bb-results-dropdown{
 	}
 }
 
-.bb-editing-tools{
+.spl-editing-tools{
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -93,7 +93,7 @@ table.bb-results-dropdown{
 	}
 }
 
-.bb-editing-tools-inner{
+.spl-editing-tools-inner{
 	min-height: 0;
 	padding: 0;
 	border: 0;

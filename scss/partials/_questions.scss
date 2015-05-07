@@ -1,23 +1,23 @@
 /*questions*/
 
-.bb-questions h2{
+.spl-questions h2{
 	float: left;
 }
 
-.bb-questions #question-orderby{
+.spl-questions #question-orderby{
 	float: right;
 	top: -16px;
 }
 
-.bb-questions #questions{
+.spl-questions #questions{
 	clear: both;
 }
 
-.bb-question{
+.spl-question{
 	margin-top: 2em;
 }
 
-.bb-question h2{
+.spl-question h2{
 	margin-top: 1.5em;
 	font-size: 19px;
 	text-transform: none;
@@ -25,25 +25,25 @@
 
 }
 
-.bb-question h3{
+.spl-question h3{
 	font-size: 100%;
 }
 
-.bb-question li{
+.spl-question li{
 	margin-bottom: .5em;
 }
 
-  .bb-questions{
+  .spl-questions{
 	padding: 40px 0 60px 0;
 }
 
-.bb-question .bb-question-meta{
+.spl-question .spl-question-meta{
 	margin-top: 2em;
 	padding: .5em 0;
 	border-top: 2px solid $light-gray;
 }
 
-.bb-question-preview{
+.spl-question-preview{
 	position: relative;
 	margin-bottom: .5em;
 	padding: .5em 0;
@@ -51,47 +51,47 @@
 
 }
 
-.bb-question-preview h3{
+.spl-question-preview h3{
 	margin-bottom: 0;
 	font-size: 19px;
 	text-transform: none;
 }
 
-.bb-question-meta{
+.spl-question-meta{
 	font-size: 80%;
 	color: $dark-gray;
 }
 
-.bb-topic-label{
+.spl-topic-label{
 	display: inline-block;
 	margin-right: 4px;
 	text-transform: uppercase;
 }
 
-.bb-question-topics{
+.spl-question-topics{
 	margin-top: 0;
 	margin-bottom: 3px;
 }
 
-.bb-question-topic{
+.spl-question-topic{
 	display: inline-block;
 	margin: 0 1px;
 }
 
-.bb-question-topic:after{
+.spl-question-topic:after{
 	content:'\25AA';
 	padding-left: 2px;
 }
 
-.bb-question-topic:last-child:after{
+.spl-question-topic:last-child:after{
 	content:'';
 }
 
-.bb-question-views, .bb-question-votes{
+.spl-question-views, .spl-question-votes{
 	display: inline-block;
 	margin-right: 1em;
 }
 
-.bb-question-vote{
+.spl-question-vote{
 	margin-right: .5em;
 }

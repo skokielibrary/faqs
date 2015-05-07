@@ -1,17 +1,17 @@
 /*footer*/
 
-.bb-footer{
+.spl-footer{
 	clear: both;
   padding: 40px 0 0;
   background-color: $dark-green;
   color: $white;
 }
 
-.bb-footer h2, .bb-footer h3{
+.spl-footer h2, .spl-footer h3{
 	color: $darker-green;
 }
 
-.bb-subfooter{
+.spl-subfooter{
 	margin-top: 30px;
   padding: 4px 0;
   background-color: $dark-green;
@@ -21,12 +21,12 @@
 		margin-bottom: 0;
 	}
 
-	.bb-footer a{
+	.spl-footer a{
 		color: $white;
 	}
 }
 
-.bb-staff{
+.spl-staff{
 	margin-bottom: 1.5em;
 
 	h4{

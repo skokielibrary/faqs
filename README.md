@@ -1,10 +1,10 @@
 #FAQ site styles
 
-These are custom styles for our BOOMBox faq site. The site uses [Libraryh3lp's](https://us.libraryh3lp.com/) FAQ site builder.
+These are custom styles for our Libraryh3lp faq sites. The site uses [Libraryh3lp's](https://us.libraryh3lp.com/) FAQ site builder.
 
 ## Getting started
 
-We use SASS to manage the CSS and Gulp to file the final CSS file.
+We use Sass to manage the CSS and Gulp to produce the final CSS file.
 
 ```
 git clone [this repo]

@@ -1,11 +1,11 @@
-.bb-activities{
+.spl-activities{
 	display: none;
 	padding: 40px 0;
 	border-bottom: 2px solid $light-green;
 
 }
 
-.bb-featured-activities{
+.spl-featured-activities{
 	background-color: $light-green;
 
 	h2{
@@ -14,7 +14,7 @@
 
 }
 
-.bb-more-activities{
+.spl-more-activities{
 	margin: 1em 0 0 0;
 	text-align: right;
 
@@ -23,7 +23,7 @@
 	}
 }
 
-.bb-activity{
+.spl-activity{
 	background-color: $white;
 
 	h3{
@@ -37,7 +37,7 @@
 
 }
 
-.bb-activity-text{
+.spl-activity-text{
 	padding: 12px;
 
 	h4{
@@ -46,7 +46,7 @@
 
 }
 
-.bb-activity-time{
+.spl-activity-time{
 	font-size: 14px;
 	color: $dark-gray;
 }
