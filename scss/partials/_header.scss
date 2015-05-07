@@ -15,11 +15,13 @@
 
 .spl-brand{
 	float: left;
+	padding-top: 32px;
 	font-size: 48px;
 	font-weight: 700;
-	line-height: 132px;
+	line-height: 1;
 	color: $primary-dark;
 	text-transform: uppercase;
+	transition: color .3s ease;
 
 	&:hover{
 		color: $primary-light;
@@ -28,6 +30,13 @@
 
 	&:hover .box-text{
 		color: $primary-dark;
+	}
+
+	> small{
+		display: block;
+		font-size: .8rem;
+		text-align: right;
+		color: $dark-gray;
 	}
 
 	.box-text{
@@ -61,9 +70,11 @@
 }
 
 table.spl-results-dropdown{
+	min-width: initial;
 	border: 0;
 	width: 100%;
 	padding: 4px 0 8px 0;
+	text-align: left;
 
 	td{
 		padding: 3px 3px 3px 11px;

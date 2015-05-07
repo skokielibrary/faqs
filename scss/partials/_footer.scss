@@ -5,6 +5,10 @@
   padding: 40px 0 0;
   background-color: $primary-dark;
   color: $white;
+
+	a{
+		color: $white;
+	}
 }
 
 .spl-footer h2, .spl-footer h3{
@@ -15,14 +19,10 @@
 	margin-top: 30px;
   padding: 4px 0;
   background-color: $primary-dark;
-  font-size: 90%;
+  font-size: 80%;
 
 	p{
 		margin-bottom: 0;
-	}
-
-	.spl-footer a{
-		color: $white;
 	}
 }
 
@@ -35,5 +35,18 @@
 
 	p{
 		color: $primary-light;
+	}
+}
+
+.spl-staff{
+	list-style: none;
+	margin: 0 0 1.5em 0;
+
+	li{
+		margin-bottom:2px;
+
+		> small{
+			font-size: 100%; color:#8cc63e
+		}
 	}
 }
