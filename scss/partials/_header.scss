@@ -4,7 +4,7 @@
 	height: 132px;
 	background: $white;
 	border: 0;
-	border-bottom: 2px solid $light-green;
+	border-bottom: 2px solid $primary-light;
 	box-shadow: none;
 
 	& > .container{
@@ -18,20 +18,20 @@
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 132px;
-	color: $dark-green;
+	color: $primary-dark;
 	text-transform: uppercase;
 
 	&:hover{
-		color: $light-green;
+		color: $primary-light;
 		text-decoration: none;
 	}
 
 	&:hover .box-text{
-		color: $dark-green;
+		color: $primary-dark;
 	}
 
 	.box-text{
-		color: $light-green;
+		color: $primary-light;
 	}
 }
 
@@ -89,7 +89,7 @@ table.spl-results-dropdown{
 	}
 
 	.edit-toggle.icon-large {
-		color: $dark-green;
+		color: $primary-dark;
 	}
 }
 

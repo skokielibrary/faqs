@@ -3,18 +3,18 @@
 .spl-footer{
 	clear: both;
   padding: 40px 0 0;
-  background-color: $dark-green;
+  background-color: $primary-dark;
   color: $white;
 }
 
 .spl-footer h2, .spl-footer h3{
-	color: $darker-green;
+	color: $primary-darker;
 }
 
 .spl-subfooter{
 	margin-top: 30px;
   padding: 4px 0;
-  background-color: $dark-green;
+  background-color: $primary-dark;
   font-size: 90%;
 
 	p{
@@ -34,6 +34,6 @@
 	}
 
 	p{
-		color: $light-green;
+		color: $primary-light;
 	}
 }
